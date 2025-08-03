@@ -11,6 +11,8 @@ public class avgScoreProblem {
         System.out.println("The average grade is: " + average);
     }
 
+    // Este codigo usa ciclos para conocer cuantas veces se debe preguntar, como la pregunta no especifica el numero de notas. 
+
     public static float calculateAverage(String[] args) {
         System.out.println("This program calculates the weighted average of a set of grades. Type -1 to exit.");
         System.out.println("Enter the number of grades:");
