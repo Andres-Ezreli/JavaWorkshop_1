@@ -37,6 +37,18 @@ public class savingAccountProblem {
             return 0;
         }
 
+
+        // Probably one of the good ways to use a cicle for this exercise. 
+        // for(int i = 0; i < years; i++) {
+        //     if (i % 5 == 0 && i != 0) {
+        //         System.out.println("You have saved for " + i + " years. Do you want to continue saving? (yes/no)");
+        //         String response = input.next();
+        //         if (!response.equalsIgnoreCase("yes")) {
+        //             break;
+        //         }
+        //     }
+        // }
+
         return initialAmount + (monthlySavings * 12 * years);
     }
 }
